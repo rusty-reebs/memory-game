@@ -6,7 +6,7 @@ const Navbar = (props) => {
   return (
     <header>
       <div>
-        <h1>Memory Game</h1>
+        <h1>Game of Thrones Memory Game</h1>
         <nav>
           <p>
             Score: <span>{props.currentScore}</span>

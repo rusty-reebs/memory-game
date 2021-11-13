@@ -12,16 +12,7 @@ const CharacterCard = (props) => {
         <img alt={props.name} src={props.image} />
       </div>
       <div className="img-content">
-        <ul>
-          <li>
-            <strong>Name:</strong>
-            {props.name}
-          </li>
-          <li>
-            <strong>Occupation:</strong>
-            {props.occupation}
-          </li>
-        </ul>
+        <strong>{props.name}</strong>
       </div>
     </div>
   );
